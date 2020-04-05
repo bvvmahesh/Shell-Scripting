@@ -1,1 +1,3 @@
-echo Hello world. This is Mahesh
+#!/bin/bash
+
+echo Hello world.
