@@ -22,5 +22,13 @@ echo -e "Hello this is mahesh, \nBye"
 
 # Tab Spaces (\t)
 
-echo -e "one\t\t\t\t\t\t\t\ttwo"
+echo -e "one\t\t\t\ttwo"
+
+## colour code(\e)
+
+echo -e "\e[31mHello this is Mahesh"
+
+
+
+
 
