@@ -10,4 +10,17 @@ echo This is Mahesh working as a Devops Engineer. Hello world
 
 # Escape sequences
 
+# new line(\n)
+
 echo -e "Hello this is mahesh, \nBye"
+
+# observations
+
+# 1) when you use escape sequence, always use -e option
+#  2) when you use escape sequence, always provide input in quotes, double is preferred
+
+
+# Tab Spaces (\t)
+
+echo -e "one\t\t\t\t\t\t\t\ttwo"
+
