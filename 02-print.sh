@@ -7,5 +7,7 @@
 # we choose to go with echo as it reduces the syntax  problems unlike printf
 
 echo This is Mahesh working as a Devops Engineer. Hello world
-echo Basics of shell scripting.
-echo Hello world
+
+# Escape sequences
+
+echo -e "Hello this is mahesh, \nBye"
