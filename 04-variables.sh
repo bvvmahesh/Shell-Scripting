@@ -21,6 +21,5 @@ d=20.90 # float
 
 ##echo welcome Good morning today date is $(date)
 
-bc
-echo 09-01
+echo COURSE NAME=$COURSENAME
 
