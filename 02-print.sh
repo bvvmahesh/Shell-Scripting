@@ -67,6 +67,19 @@ echo -e "\e[44mdevops engineer\e[0m"
 echo -e "\e[31;43m Mahesh \e[0m"
 
 
+## Tasks for practice
+
+# 1. Make a text with all the color combinations, Every word ont he below line should be a different color, 
+Adjecent two words cannot have same color.
+
+# The number of positive novel coronavirus cases in India surged to 830 on Friday, the third day 
+# of the 21-day lockdown imposed to combat the Covid-19 outbreak, while the death toll rose to 20. 
+# Almost 100 new cases were reported across India after the health ministry on Friday morning said that 
+# the total number of cases stood at 724.
+
+
+
+
 
 
 

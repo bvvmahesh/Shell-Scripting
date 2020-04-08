@@ -21,4 +21,6 @@ d=20.90 # float
 
 ##echo welcome Good morning today date is $(date)
 
- yum install bc
+bc
+echo 09-01
+
