@@ -1,0 +1,7 @@
+[APP-NAME] [INFO|ERROR|WARNING] (TIME-STAMP | dim) message
+
+## echo -e "\e[35m[catalogue]\e[31m[ERROR]\e[0m \e[2m $(date)\e[0m \e[1;m Installing catalogue - \e[1;31mERROR\e[0m"
+
+##echo -e "\e[5mDim\e[0m"
+
+

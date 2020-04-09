@@ -21,6 +21,20 @@ d=20.90 # float
 
 ##echo welcome Good morning today date is $(date)
 
-echo COURSE NAME=$COURSENAME
+
+##read -p 'Enter your name : ' name
+##echo $name
 
 
+##echo "the first argument is : $2"
+##echo "the first argument is : $1"
+#echo "the first argument is : $#"
+#echo "the first argument is : $*"
+#echo "the first argument is : $$"
+#echo "the first argument is : $@"
+#echo "the first argument is : $?"
+##echo "the first argument is : $!"
+
+ls -ltr
+
+> /c/Users/bavisetty.mahesh/Desktop/GitHub/Shell-Scripting/file.txt
