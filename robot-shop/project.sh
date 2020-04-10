@@ -25,6 +25,25 @@ B="\e[1m"
 ##echo -e "${CB}[DISPATCH]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 ##echo -e "${CB}[PAYMENT]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 
+LOG_FILE=/tmp/project.log 
+rm -f $LOG_FILE 
+CLONE_MAIN_DIR=/tmp/robo-shop
+
+LOGGER() {
+  echo -e "${YB}------------------------ ** END OF $2 ** ----------------------------${N}" >>$LOG_FILE
+  case $1 in 
+    INFO) 
+      STAT_COLOR=${B}
+      ;; 
+    FAIL) 
+      STAT_COLOR=${RB}
+      ;;
+    SUCC) 
+      STAT_COLOR=${GB}
+      ;;
+    SKIP) 
+      STAT_COLOR=${YB}
+  esac 
 
 SERVICE_NAME=MONGODB
 LOGGER INFO "Starting MONGODB setup"
@@ -34,6 +53,8 @@ baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/4.2/x86_64/
 gpgcheck=1
 enabled=1
 gpgkey=https://www.mongodb.org/static/pgp/server-4.2.asc' >/etc/yum.repos.d/mongodb-org-4.2.repo
+
+
 
 
 
