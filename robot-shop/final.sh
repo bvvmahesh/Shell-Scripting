@@ -17,7 +17,8 @@ rm -f $LOG_FILE
 CLONE_MAIN_DIR=/tmp/robo-shop
 
 ## Check Git Cred Variables 
-
+$GIT_USER=bvvmahesh
+$GIT_PASSWORD=Mahesh@0524
 if [ -z "$GIT_USER" ]; then 
   echo -e "\n $RB GIT_USER Variable is missing, export GIT_USER and try again!!\n"
   exit 1
