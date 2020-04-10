@@ -25,8 +25,7 @@ B="\e[1m"
 ##echo -e "${CB}[DISPATCH]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 ##echo -e "${CB}[PAYMENT]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 
-LOG_FILE=/tmp/project.log 
- $LOG_FILE 
+$LOG_FILE=/tmp/project.log  
 CLONE_MAIN_DIR=/tmp/robo-shop
 
 LOGGER() {
