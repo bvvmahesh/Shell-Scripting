@@ -25,7 +25,8 @@ B="\e[1m"
 ##echo -e "${CB}[DISPATCH]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 ##echo -e "${CB}[PAYMENT]${N}[INFO]${N} ${D}$(date +%F" "%T)${N} ${B}MongoDB Install${N}"
 
-$LOG_FILE=/tmp/project.log  
+LOG_FILE=/tmp/project.log 
+rm -f $LOG_FILE 
 CLONE_MAIN_DIR=/tmp/robo-shop
 
 LOGGER() {
@@ -75,3 +76,4 @@ STAT $? "Installing MongoDB"
 systemctl enable mongod &>>$LOG_FILE 
 systemctl start mongod &>>$LOG_FILE 
 STAT $? "Starting MongoDB Service"
+SERVICE_SETUP
